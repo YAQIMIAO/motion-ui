@@ -1,5 +1,5 @@
 # motion-ui  
-Prototype of motion control UI using webcam in a browser
+Realtime motion capture and motion control UI using webcam in browser.
 
 ## Overview  
 Motion Virtual Capture is a prototype framework for defining user interfaces in VR through facial and hand tracking. This open-source project aims to bridge the existing gap in the market, facilitating a wider and more effective use of VR technologies, enhancing user immersion and interaction within the virtual environment.
@@ -13,7 +13,7 @@ See the live demo here: [https://motion-virutal-capture-prototype.glitch.me/](ht
 
 ## Features
 
-Our prototype framework captures and tracks facial expressions and hand gestures via a webcam. It interfaces seamlessly with existing VR hardware and software solutions. It has gesture recognition feature utilizes a two-step neural network pipeline:
+Our prototype framework captures and tracks facial expressions and hand gestures via a webcam. It features seamlessly interaction between existing VR hardware, phones, PCs and web applications through JavaScript. The framework integrated MediaPipe for realtime gesture recognition feature, utilizing a two-step neural network pipeline:
 
 1. An Embedding model - The "landmark model" is responsible for the detection of hands and outlining their geometric configurations.
 2. A Classification model - The "gesture recognition model" discerns various gestures based on the outlined hand geometry.
@@ -52,10 +52,10 @@ These functions are called when the respective gesture is detected. You can modi
 
 1. Clone this repo
 ```
-git clone https://github.com/yourgithubusername/motion-virtual-capture.git
+git clone https://github.com/YAQIMIAO/motion-ui.git
 ```
 2. In script.js add your UI logic to the event listeners
 3. Build your next web app with VR controls!
 
 ## Contributing
-We welcome contributions! Please feel free to contact us at fooloo@live.com if you have questions and suggestions, or are interested in contributing to this project. 
+We welcome contributions! Please feel free to contact us at fooloo@live.com if you have feature requests, questions or suggestions, or are interested in contributing to this project. 
